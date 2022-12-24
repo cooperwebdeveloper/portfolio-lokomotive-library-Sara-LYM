@@ -97,10 +97,10 @@ a:hover::after {
     animation: animLink 1.4s infinite ease-in-out;
 }
 @keyframes animLink {
-    50%{
+    50% {
         transform: scaleX(0.1); /*a 50% de l'animation se reduit jusqua 20% de sa taille */
     }
-    100%{
+    100% {
         transform: scaleX(1); /*revient a sa forme initiale*/
     }
 }
@@ -124,14 +124,14 @@ a:hover::after {
     width: 70%;
     margin: 0 auto;
     background: #000101;
-    transition: 1s cubic-bezier(0.77, 0, 0.18, 1);
+    transition: 1.5s cubic-bezier(0.77, 0, 0.18, 1);
     transform-origin: left;
-    transition-delay: 0.45s; /*pour pas quelle apparaisse trop vite*/
+    transition-delay: 0.5s; /*pour pas quelle apparaisse trop vite*/
     opacity: 0;
     transform: scaleX(0);
 }
 
-.line-wrapper.is-inview {
+.line-wrapper.is-inview .line{
     opacity: 1;
     transform: scaleX(1);
 }
@@ -338,7 +338,7 @@ footer a {
 
 
 .img2 {
-    background: url(../assets/img/bill-gates-2.jpg) center/cover ;
+    background: url(../assets/img/avec\ vous.jpg) center/cover ;
     margin-bottom: 100px;
 }
 
